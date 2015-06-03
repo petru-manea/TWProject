@@ -1,0 +1,204 @@
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200);
+
+body {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    text-decoration: none;
+    background: #f1ede3;
+    font-family: 'Lato', Helvetica, sans-serif;
+    font-size: 1.1em;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.stamp {
+    color: #f1ede3;
+    position: absolute;
+    margin: 5px 5px 5px 5px;
+    bottom: 15%;
+    font-size: 11.5px;
+    font-weight: bold;
+    opacity: 0.8;
+}
+#page {
+
+    top: 0;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    width: 100%;
+    text-align: center;
+    background: #f1ede3;
+}
+.section {
+    text-decoration: none;
+    top: 0;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    width: 100%;
+    height: 200px;
+    background: #f1ede3;
+    color: #444;
+
+    -webkit-transition: background 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out;
+}
+#menu {
+    text-decoration: none;
+    overflow: hidden;
+    position: absolute;
+    z-index: 10000000;
+    opacity: 0.9;
+    left: -150px;
+    width: 200px;
+    min-height: 1600px;
+    background: #000000;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+
+    transition: all 0.5s cubic-bezier(.50,.32,.01,1);
+    -webkit-transition: all 0.5s cubic-bezier(.50,.32,.01,1);
+}
+#menu-header, #menu-footer {
+    text-decoration: none;
+    font-family: 'Lato', Helvetica, sans-serif;
+    width: 100%;
+    height: 45px;
+    padding-top: 5px;
+    padding-left: 30px;
+    font-size: 23px;
+    color: #bababa;
+}
+#menu-footer {
+    text-decoration: none;
+    text-align: left;
+    position: absolute;
+    background: #101319;
+    padding-left: 30px;
+    bottom: -50px;
+
+    transition: all 0.6s cubic-bezier(.50,.32,.01,1);
+    -webkit-transition: all 0.6s cubic-bezier(.50,.32,.01,1);
+}
+.onscreen {
+    text-decoration: none;
+    left: 0 !important;
+}
+#cats {
+    text-decoration: none;
+    font-family: 'Lato', Helvetica, sans-serif;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    font-size: 16px;
+    color: #9d9d9d;
+}
+
+.cat {
+    text-decoration: none;
+    font-family: 'Lato', Helvetica, sans-serif;
+    color: #9d9d9d;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 30px;
+    width: 100%;
+    height: 45px;
+    margin: 0;
+    background: transparent;
+
+    transition: all 0.15s ease-out;
+    -webkit-transition: all 0.15s ease-out;
+}
+
+
+.cat:hover {
+    text-decoration: none;
+    color: #f1ede3;
+    background: #041705;
+
+}
+.active {
+    text-decoration: none;
+    background: #041705;
+    color:#f1ede3;
+}
+.showmenu {
+    text-decoration: none;
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    top: 5px;
+    right: 5px;
+    font-size: 16px;
+
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+}
+.closemenu div:nth-child(1) {
+
+    transform: rotate(225deg) !important;
+    top: 15px !important;
+    background: #f1ede3;
+}
+.closemenu div:nth-child(2) {
+
+    transform: rotate(-45deg) !important;
+    top: 15px !important;
+    background: #f1ede3;
+}
+.showmenu div:nth-child(n) {
+
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    margin: 3px 0 0 10px;
+    background: #f1ede3;
+
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+.showmenu div:nth-child(1) {
+
+    top: 13px;
+}
+.showmenu div:nth-child(2) {
+
+    top: 19px;
+}
+.showmenu:hover {
+
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
+}
+#formore {
+
+    position: absolute;
+    height: 80px;
+    left: 80px;
+    top: 20px;
+}
+#penby {
+    text-decoration: none;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 30%;
+}
+
+html {
+    height: 100%;
+    /*Image only BG fallback*/
+    background: url('http://thecodeplayer.com/uploads/media/gs.png')
+    no-repeat;
+    /*background = gradient + image pattern combo*/
+    background:
+    linear-gradient(rgba(6, 196, 15, 0.20), rgba(7, 138, 182, 0.20)),
+    no-repeat,
+    url('http://thecodeplayer.com/uploads/media/gs.png');
+}
+
+body {
+    font-family: montserrat, arial, verdana;
+}

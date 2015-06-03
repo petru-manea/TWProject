@@ -1,0 +1,310 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+/*------------------------------------------------------------------
+                        BOOTSTRAP STYLES
+-------------------------------------------------------------------*/
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color: #707c8e;
+    outline: none;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar button {
+    background: #ccc;
+}
+
+.navbar span {
+    background: #ededed;
+}
+
+.navbar a {
+    text-align: center;
+}
+
+/*------------------------------------------------------------------
+                        DEFAULT STYLES
+-------------------------------------------------------------------*/
+body {
+    font-family: 'Lato', sans-serif;
+    background: #fff;
+    overflow-x: hidden;
+}
+
+section {
+    margin: 100px 0;
+}
+
+hr {
+    margin: 10px 0;
+}
+
+h3, h4 {
+    text-align: center;
+    font-weight: bold;
+}
+
+section h2 {
+    text-align: left;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+section h2:after {
+     margin-top: 20px;
+     display: inline-block;
+     content: '';
+     width: 45px;
+     height: 10px;
+     border-top: 5px solid #B5C3D5;
+     position: absolute;
+     bottom: -10px;
+     left: 0;
+ }
+
+a, a:hover {
+    color: black;
+}
+
+a:hover {
+    transition: background-color, color .3s ease-in-out;
+}
+
+/*------------------------------------------------------------------
+                        HEADER STYLES
+-------------------------------------------------------------------*/
+header {
+    background: #ededed;
+}
+
+.banner {
+    background: #B5C3D5;
+    height: 280px;
+}
+
+.banner > h2,
+.banner .info {
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    top: 100px;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+}
+
+.banner > h2 {
+    font-size: 2em;
+    color: #25271E;
+}
+
+.banner .info {
+    display: none;
+}
+
+.banner a {
+    height: 50px;
+    font-size: 1.3em;
+    display: inline-block;
+    width: 48%;
+    text-decoration: none;
+    border: 2px solid rgba(0, 0, 0, .3);
+    margin-right: -4px;
+    transition: all .3s ease-in-out;
+}
+
+.banner a:last-child {
+    margin-left: 2%;
+}
+
+.banner a:hover {
+    background: #8FC6FF;
+}
+#quote{
+    /*position:relative;*/
+   margin-right:15%;
+    text-align: right;
+}
+
+/*------------------------------------------------------------------
+                        SECTION.producers STYLES
+-------------------------------------------------------------------*/
+
+.producers .producers-info {
+    padding: 7px;
+    box-shadow:none;
+    margin-bottom: 20px;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    opacity: 0;
+    margin: auto ;
+    background: none;
+
+}
+
+.producers .producers-info h3 {
+    margin-top: -7px;
+    line-height: 180px;
+    background-image:url('/Images/img.png');
+}
+#sonia{
+
+}
+
+/*------------------------------------------------------------------
+                        SECTION.PROCESS STYLES
+-------------------------------------------------------------------*/
+.process .method {
+    background: #ccc;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    opacity: 0;
+}
+
+.process .method h3 {
+    font-style: italic;
+}
+
+.process .method p {
+    margin: 0;
+}
+
+.process .method h4 {
+    background: #cdd0d2;
+    width: 60px;
+    height: 60px;
+    font-size: 2em;
+    font-weight: bold;
+    border-radius: 50%;
+    line-height: 60px;
+    margin: 0 auto;
+    position: relative;
+    top: 30px;
+}
+.col-xs-12{
+    text-align: center;
+}
+/*------------------------------------------------------------------
+                        SECTION.Demo STYLES
+-------------------------------------------------------------------*/
+.demo {
+    margin-bottom: 0;
+}
+
+.demo p {
+    position: relative;
+    opacity: 0;
+    left: -750px;
+}
+
+.demo button {
+    position: relative;
+    bottom: -50px;
+    opacity: 0;
+    margin-bottom: 20px;
+}
+
+.col-lg-4 {
+    position: relative;
+}
+
+.demo img {
+    position: absolute;
+    right: -330px;
+    margin-top: 10px;
+    opacity: 0;
+}
+
+.firstAnimation {
+    opacity: 1;
+    height: 180px;
+    width: 250px;
+}
+
+/*------------------------------------------------------------------
+                        FOOTER STYLES
+-------------------------------------------------------------------*/
+footer {
+    text-align: center;
+    height: 52px;
+    background: #ededed;
+    line-height: 52px;
+}
+
+/*------------------------------------------------------------------
+                        MEDIA QUERIES STYLES
+-------------------------------------------------------------------*/
+@media only screen and (max-width: 1050px) and (min-width: 600px) {
+    .banner > h2, .banner .info {
+        width: 70%
+    }
+
+    .banner > h2 {
+        font-size: 1.8em;
+    }
+}
+
+@media only screen and (max-width: 599px) and (min-width: 350px) {
+    .banner a {
+        font-size: 1em;
+    }
+
+    .banner > h2, .banner .info {
+        width: 80%
+    }
+
+    .banner > h2 {
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (max-width: 349px) {
+    .banner .info {
+        height: auto;
+    }
+
+    .banner a {
+        font-size: 1em;
+        width: 50%;
+        display: block;
+    }
+
+    .banner a:first-child {
+        margin: 0 auto;
+    }
+
+    .banner a:last-child {
+        margin: 10px auto 0;
+    }
+
+    .banner > h2, .banner .info {
+        width: 80%
+    }
+
+    .banner > h2 {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 550px) {
+    .process .row:first-child .col-xs-12,
+    .producers .row:first-child .col-xs-12 {
+        width: 100%;
+    }
+
+    .process .col-xs-12,
+    .producers .col-xs-12 {
+        width: 50%;
+    }
+
+    .producers .col-xs-12:nth-child(3),
+    .producers .col-xs-12:nth-child(4) {
+        margin-top: 15px;
+    }
+}
+

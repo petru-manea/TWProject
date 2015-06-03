@@ -1,0 +1,50 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="FirstPage:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/FirstPage_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="FirstPage/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="FirstPage" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Mojarra-2.2.1" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/chestii/AIESEC/aiesecAcademy2015/apache-tomcat-7.0.59/apache-tomcat-7.0.59/lib/annotations-api.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/chestii/AIESEC/aiesecAcademy2015/apache-tomcat-7.0.59/apache-tomcat-7.0.59/lib/catalina-tribes.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/chestii/AIESEC/aiesecAcademy2015/apache-tomcat-7.0.59/apache-tomcat-7.0.59/lib/tomcat-api.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/chestii/AIESEC/aiesecAcademy2015/apache-tomcat-7.0.59/apache-tomcat-7.0.59/lib/websocket-api.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/chestii/AIESEC/aiesecAcademy2015/apache-tomcat-7.0.59/apache-tomcat-7.0.59/lib/catalina-ant.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/chestii/AIESEC/aiesecAcademy2015/apache-tomcat-7.0.59/apache-tomcat-7.0.59/lib/el-api.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/chestii/AIESEC/aiesecAcademy2015/apache-tomcat-7.0.59/apache-tomcat-7.0.59/lib/tomcat-jdbc.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/chestii/AIESEC/aiesecAcademy2015/apache-tomcat-7.0.59/apache-tomcat-7.0.59/lib/tomcat7-websocket.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/chestii/AIESEC/aiesecAcademy2015/apache-tomcat-7.0.59/apache-tomcat-7.0.59/lib/catalina-ha.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/chestii/AIESEC/aiesecAcademy2015/apache-tomcat-7.0.59/apache-tomcat-7.0.59/lib/tomcat-dbcp.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/chestii/AIESEC/aiesecAcademy2015/apache-tomcat-7.0.59/apache-tomcat-7.0.59/lib/ecj-4.4.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/chestii/AIESEC/aiesecAcademy2015/apache-tomcat-7.0.59/apache-tomcat-7.0.59/lib/jasper.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/chestii/AIESEC/aiesecAcademy2015/apache-tomcat-7.0.59/apache-tomcat-7.0.59/lib/tomcat-coyote.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/chestii/AIESEC/aiesecAcademy2015/apache-tomcat-7.0.59/apache-tomcat-7.0.59/lib/tomcat-util.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/chestii/AIESEC/aiesecAcademy2015/apache-tomcat-7.0.59/apache-tomcat-7.0.59/lib/catalina.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/chestii/AIESEC/aiesecAcademy2015/apache-tomcat-7.0.59/apache-tomcat-7.0.59/lib/jasper-el.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/aiesecAcademy2015/apache-tomcat-7.0.59/apache-tomcat-7.0.59/lib/annotations-api.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/aiesecAcademy2015/apache-tomcat-7.0.59/apache-tomcat-7.0.59/lib/catalina-ant.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/aiesecAcademy2015/apache-tomcat-7.0.59/apache-tomcat-7.0.59/lib/catalina-ha.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/aiesecAcademy2015/apache-tomcat-7.0.59/apache-tomcat-7.0.59/lib/catalina-tribes.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/aiesecAcademy2015/apache-tomcat-7.0.59/apache-tomcat-7.0.59/lib/catalina.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/aiesecAcademy2015/apache-tomcat-7.0.59/apache-tomcat-7.0.59/lib/ecj-4.4.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/aiesecAcademy2015/apache-tomcat-7.0.59/apache-tomcat-7.0.59/lib/el-api.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/aiesecAcademy2015/apache-tomcat-7.0.59/apache-tomcat-7.0.59/lib/jasper-el.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/aiesecAcademy2015/apache-tomcat-7.0.59/apache-tomcat-7.0.59/lib/jasper.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/aiesecAcademy2015/apache-tomcat-7.0.59/apache-tomcat-7.0.59/lib/tomcat-api.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/aiesecAcademy2015/apache-tomcat-7.0.59/apache-tomcat-7.0.59/lib/tomcat-coyote.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/aiesecAcademy2015/apache-tomcat-7.0.59/apache-tomcat-7.0.59/lib/tomcat-dbcp.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/aiesecAcademy2015/apache-tomcat-7.0.59/apache-tomcat-7.0.59/lib/tomcat-jdbc.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/aiesecAcademy2015/apache-tomcat-7.0.59/apache-tomcat-7.0.59/lib/tomcat-util.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/aiesecAcademy2015/apache-tomcat-7.0.59/apache-tomcat-7.0.59/lib/tomcat7-websocket.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/aiesecAcademy2015/apache-tomcat-7.0.59/apache-tomcat-7.0.59/lib/websocket-api.jar" />
+          <element id="library" level="application" name="ojdbc7" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/aiesecAcademy2015/ojdbc7.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
